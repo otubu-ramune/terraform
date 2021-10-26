@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+#reference:  https://zenn.dev/kotapon/articles/02e245a1655360
 COUNT=1
 terraform apply -auto-approve
 while [ $? -eq 1 ]
